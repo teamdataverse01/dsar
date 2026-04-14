@@ -6,7 +6,12 @@
       "Bash(where python:*)",
       "Bash(where node:*)",
       "Bash(python -c \"from app.main import app; print\\('Import OK'\\)\")",
-      "Bash(python -c ':*)"
+      "Bash(python -c ':*)",
+      "Bash(railway up:*)",
+      "Bash(railway domain:*)",
+      "Bash(timeout 120 bash -c 'until curl -s https://dsar-production.up.railway.app/health > /dev/null 2>&1; do echo -n \".\"; sleep 5; done')",
+      "Bash(curl -s https://dsar-production.up.railway.app/health)",
+      "Bash(timeout 120 bash -c 'until curl -sf https://dsar-production.up.railway.app/health 2>/dev/null | grep -q \"ok\"; do echo -n \".\"; sleep 5; done')"
     ]
   }
 }
