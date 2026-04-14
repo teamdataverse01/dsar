@@ -15,8 +15,16 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "DataVerse DSAR"
     API_V1_PREFIX: str = "/api/v1"
 
-    # Database — SQLite by default so no separate server is needed for dev
+    # Database — SQLite for dev, PostgreSQL for production (Railway sets DATABASE_URL automatically)
     DATABASE_URL: str = "sqlite:///./dsar.db"
+
+    @property
+    def db_url(self) -> str:
+        url = self.DATABASE_URL
+        # Railway provides postgres:// but SQLAlchemy needs postgresql://
+        if url.startswith("postgres://"):
+            url = url.replace("postgres://", "postgresql://", 1)
+        return url
 
     # Redis / Celery — optional; background tasks simply won't run if Redis is absent
     REDIS_URL: str = "redis://localhost:6379/0"
