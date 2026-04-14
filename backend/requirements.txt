@@ -1,0 +1,37 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# Database — SQLite by default (no separate server needed for dev)
+sqlalchemy
+alembic
+
+# Settings / env
+pydantic[email]>=2.0
+pydantic-settings
+python-dotenv
+
+# Auth / security
+python-jose[cryptography]
+bcrypt
+python-multipart
+cryptography
+
+# OTP
+pyotp
+
+# Email — Resend (leave RESEND_API_KEY blank and OTP shows on-screen instead)
+resend
+
+# Background tasks — optional; app works without Redis
+celery
+redis
+
+# HTTP client (systeme.io connector)
+httpx
+
+# AI drafts — optional; leave ANTHROPIC_API_KEY blank to skip
+anthropic
+
+# Utilities
+python-dateutil

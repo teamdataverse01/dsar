@@ -1,0 +1,15 @@
+Dear {subject_name},
+
+Re: Your Erasure (Deletion) Request — Reference {reference}
+
+We have completed our review of your request to erase your personal data.
+
+We can confirm that the personal data you identified has been deleted from our systems in accordance with applicable data protection legislation, where we are not required to retain it by law.
+
+Where we are legally obliged to retain certain records, we have restricted processing of that data to the minimum required and will delete it at the earliest opportunity.
+
+If you have any questions about what has been deleted or what is retained, please contact us quoting reference {reference}.
+
+Yours sincerely,
+Data Protection Team
+{org_name}

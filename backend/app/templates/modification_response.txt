@@ -1,0 +1,13 @@
+Dear {subject_name},
+
+Re: Your Rectification (Modification) Request — Reference {reference}
+
+We have completed our review of your request to rectify your personal data.
+
+We can confirm that the information you identified has been corrected in our systems. The updated record now reflects the accurate information you provided.
+
+If you believe any further corrections are necessary, or if you would like confirmation of the changes made, please contact us quoting reference {reference}.
+
+Yours sincerely,
+Data Protection Team
+{org_name}

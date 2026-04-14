@@ -1,0 +1,17 @@
+Dear {subject_name},
+
+Re: Your Data Access Request — Reference {reference}
+
+We have completed our review of your Subject Access Request and are pleased to provide the following information.
+
+We have searched our systems and identified the personal data we hold about you. The data package accompanying this response contains a copy of the personal data we process about you.
+
+The categories of data included are those you identified in your request. We have not included data that falls outside the scope of your request or that is exempt under applicable legislation.
+
+If you believe any information is missing or incorrect, you have the right to submit a further request for rectification.
+
+If you have any questions about this response, please contact us quoting reference {reference}.
+
+Yours sincerely,
+Data Protection Team
+{org_name}

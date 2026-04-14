@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(pip --version)",
+      "Bash(where python:*)",
+      "Bash(where node:*)",
+      "Bash(python -c \"from app.main import app; print\\('Import OK'\\)\")",
+      "Bash(python -c ':*)"
+    ]
+  }
+}

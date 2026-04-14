@@ -1,0 +1,17 @@
+Dear {subject_name},
+
+Re: Your Data Request — Reference {reference}
+
+Thank you for submitting your {request_type} request.
+
+Before we can proceed, we are required to verify your identity to ensure the security of your personal data. Please check your email for a one-time verification code and enter it on the request portal.
+
+If you did not receive the code, you can request a new one from the portal using your reference number: {reference}
+
+The verification code will expire after {otp_expiry} minutes.
+
+If you have any questions, please contact us quoting reference {reference}.
+
+Yours sincerely,
+Data Protection Team
+{org_name}

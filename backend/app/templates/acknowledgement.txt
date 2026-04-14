@@ -1,0 +1,13 @@
+Dear {subject_name},
+
+Thank you for submitting your {request_type} request to {org_name}.
+
+Your request has been received and assigned reference number: {reference}
+
+We are committed to processing your request in accordance with applicable data protection legislation. We will respond no later than {due_date}.
+
+If you need to follow up, please quote your reference number in all correspondence.
+
+Yours sincerely,
+Data Protection Team
+{org_name}
